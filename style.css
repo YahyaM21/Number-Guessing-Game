@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+body {
+    background-color: #999;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    margin: 4%;
+}
+.heading {
+    padding-top: 5%;
+    margin: 2%;
+    font-size: 3.5rem;
+}
+#nice {
+    font-size: 6rem;
+    color:#fff;
+    text-align: center;
+}
+#userNum {
+    margin: 2% 0 4% 2%;
+    padding-left: 10px;
+    outline: none;
+}
+
+#too-big {
+    font-size: 3rem;
+    color: red;
+}
+
+
+#too-small {
+    font-size: 3rem;
+    color: rgb(54, 126, 173);
+
+}
